@@ -107,7 +107,7 @@ h2 {
   background: #276958; }
   @media screen and (min-width: 993px) {
     .illustration-panel {
-      background: url("/public/images/illu5.png") no-repeat top right;
+      background: url("/public/images/illu-bg.jpg") no-repeat top right;
       background-size: cover; } }
   .illustration-panel .img-logo {
     width: 100px; }
@@ -477,6 +477,8 @@ h2 {
     justify-content: center; }
     .sponsor-panel .sponsor-thumbnail img {
       max-width: 40%; }
+    .sponsor-panel .sponsor-thumbnail img.big {
+      max-width: 70%; }
   .sponsor-panel .sponsor-thumbnails {
     display: flex; }
     @media screen and (max-width: 993px) {
