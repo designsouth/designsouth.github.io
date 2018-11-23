@@ -447,13 +447,30 @@ h2 {
     color: #fff; }
 
 .contact-panel {
-  background: #276958; }
+  background: #276958;
+  position: relative;
+  z-index: 0; }
+  .contact-panel::after {
+    content: "";
+    background: url("/public/images/bottom-bg.jpg") top left;
+    opacity: 0.03;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; }
   .contact-panel h4, .contact-panel h5 {
     font-family: 'Fjalla One', sans-serif;
     text-transform: uppercase;
     color: #fff; }
   .contact-panel .contact-list p {
     line-height: .8em; }
+  .contact-panel .footer-background {
+    width: 100%; }
+  .contact-panel .img-footer {
+    width: 240px;
+    margin-left: -15px; }
 
 @media (max-width: 767px) {
   .half-section {
