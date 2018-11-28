@@ -497,9 +497,11 @@ h2 {
     .sponsor-panel .sponsor-thumbnail img.big {
       max-width: 70%; }
   .sponsor-panel .sponsor-thumbnails {
-    display: flex; }
+    display: flex;
+    margin-top: 30px; }
     @media screen and (max-width: 993px) {
       .sponsor-panel .sponsor-thumbnails {
+        margin-top: 0;
         flex-direction: column; }
         .sponsor-panel .sponsor-thumbnails .sponsor-thumbnail {
           margin: 20px 0 !important; } }
