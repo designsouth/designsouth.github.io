@@ -107,7 +107,7 @@ h2 {
   background: #276958; }
   @media screen and (min-width: 993px) {
     .illustration-panel {
-      background: url("/public/images/illu-bg.jpg") no-repeat top right;
+      background: url("/public/images/bg-illu4.jpg") no-repeat top right;
       background-size: cover; } }
   .illustration-panel .img-logo {
     width: 100px; }
@@ -507,6 +507,41 @@ h2 {
           margin: 20px 0 !important; } }
     .sponsor-panel .sponsor-thumbnails .sponsor-thumbnail {
       margin: 0 20px; }
+
+.programme-panel {
+  background: #242420; }
+  .programme-panel .img-logo {
+    max-width: 200px; }
+  .programme-panel .programme-venue {
+    text-align: center; }
+    @media screen and (min-width: 768px) {
+      .programme-panel .programme-venue {
+        text-align: initial;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        .programme-panel .programme-venue .venue-detail {
+          margin-left: 30px; } }
+  .programme-panel .venue-detail {
+    padding-left: 0; }
+    .programme-panel .venue-detail li {
+      list-style: none; }
+  .programme-panel .yellow {
+    color: #F7D166; }
+  .programme-panel #programme-list {
+    padding: 0; }
+    .programme-panel #programme-list li {
+      list-style: none;
+      margin-bottom: 15px;
+      font-size: 1.4em;
+      display: grid;
+      grid-template-columns: initial; }
+      @media screen and (min-width: 768px) {
+        .programme-panel #programme-list li {
+          grid-template-columns: 20% 80%; } }
+      @media screen and (min-width: 1024px) {
+        .programme-panel #programme-list li {
+          grid-template-columns: 15% 75%; } }
 
 html {
   scroll-behavior: smooth; }
