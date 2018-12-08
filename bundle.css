@@ -543,6 +543,20 @@ h2 {
         .programme-panel #programme-list li {
           grid-template-columns: 15% 75%; } }
 
+.members-panel {
+  background: #131311; }
+  .members-panel h4 {
+    font-size: 16px; }
+  .members-panel .img-container {
+    overflow: hidden;
+    transition: .2s all ease-in-out; }
+    .members-panel .img-container img {
+      transform: scale(1.1);
+      transition: .8s all ease-in-out; }
+    .members-panel .img-container img:hover {
+      transform: scale(1);
+      transition: .5s all ease-in; }
+
 html {
   scroll-behavior: smooth; }
 
